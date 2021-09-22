@@ -1,0 +1,1135 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1237; Version 2009; 64bit' Language: 'zh' Physical Memory: 16265 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/fanbi/Desktop/2021_T2/Game/Project/TowerDefenceGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51035
+Successfully changed project path to: C:/Users/fanbi/Desktop/2021_T2/Game/Project/TowerDefenceGame
+C:/Users/fanbi/Desktop/2021_T2/Game/Project/TowerDefenceGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fanbi/Desktop/2021_T2/Game/Project/TowerDefenceGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   
+    VRAM:     8132 MB
+    Driver:   27.20.100.8854
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002696 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.179 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007413 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.408 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.1 MB.
+System memory in use after: 78.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1845.
+Total: 2.377900 ms (FindLiveObjects: 0.181400 ms CreateObjectMapping: 0.053400 ms MarkObjects: 1.933300 ms  DeleteObjects: 0.208500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(0a0d83f9ab573514891a073d4e3f5daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(0a0d83f9ab573514891a073d4e3f5daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b66b44988bfc04191f288d945693c0d') in 0.094635 seconds 
+  Import took 0.097970 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010563 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Setting up layers.  Layer [20] is now called [Animal]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MalbersAnimations.AnimalLayer:CreateLayer () (at Assets/Malbers Animations/Common/Scripts/Editor/AnimalLayer.cs:37)
+MalbersAnimations.AnimalLayer:.cctor () (at Assets/Malbers Animations/Common/Scripts/Editor/AnimalLayer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Malbers Animations/Common/Scripts/Editor/AnimalLayer.cs Line: 37)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.629 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1531 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.7 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1988.
+Total: 3.872500 ms (FindLiveObjects: 0.185100 ms CreateObjectMapping: 0.058100 ms MarkObjects: 3.044700 ms  DeleteObjects: 0.583000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 164.673867 seconds.
+  path: Assets/Malbers Animations/Common/Malbers Post Processing Profile 0.asset
+  artifactKey: Guid(8ad382d30566c174e9bc6057d169cd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Malbers Post Processing Profile 0.asset using Guid(8ad382d30566c174e9bc6057d169cd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73899713803bc1f518f25d564ee0aacb') in 0.025114 seconds 
+  Import took 0.029095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Malbers Animations/Common/Malbers Post Processing Profile 1.asset
+  artifactKey: Guid(fb87e9f5fb4cef547ab1b9f06fe4f0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Malbers Post Processing Profile 1.asset using Guid(fb87e9f5fb4cef547ab1b9f06fe4f0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9f140c365af353787f3cf388171914') in 0.033061 seconds 
+  Import took 0.046732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.926730 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/Axis.prefab
+  artifactKey: Guid(f09ceca33ea0e554f92eb2f15e8dce44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/Axis.prefab using Guid(f09ceca33ea0e554f92eb2f15e8dce44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120954ad5994a36ef911ed06e3caf664') in 0.109526 seconds 
+  Import took 0.114217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/OffMeshLink Jump Bi.prefab
+  artifactKey: Guid(643dbfe5502cdad42857cb734a9da7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/OffMeshLink Jump Bi.prefab using Guid(643dbfe5502cdad42857cb734a9da7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da6fedbd1d6c5d6ad216458f6d604d1') in 0.042343 seconds 
+  Import took 0.045729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/Zone Drink.prefab
+  artifactKey: Guid(50f4472a89db1cd4e92a51f2b25c779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/Zone Drink.prefab using Guid(50f4472a89db1cd4e92a51f2b25c779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a2912bb819728adf983f39fbf17909') in 0.067308 seconds 
+  Import took 0.070512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/Track Trigger.prefab
+  artifactKey: Guid(909ac2b15641704448e1b00e3a15b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/Track Trigger.prefab using Guid(909ac2b15641704448e1b00e3a15b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c501afdd89c8f10df382fb551f8a9561') in 0.029026 seconds 
+  Import took 0.039265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000803 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/Environment AI.prefab
+  artifactKey: Guid(80fb5c9a444b64e489a8b2f32935ad5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/Environment AI.prefab using Guid(80fb5c9a444b64e489a8b2f32935ad5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d61318b4d358e70fce1564a159d412b') in 0.042477 seconds 
+  Import took 0.047961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/Zone Dig.prefab
+  artifactKey: Guid(5d2df544d5808dd4ebe85cf6263515f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/Zone Dig.prefab using Guid(5d2df544d5808dd4ebe85cf6263515f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6298a625fa1039459079fdfe742a38d') in 0.150942 seconds 
+  Import took 0.153966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/Zone Lie.prefab
+  artifactKey: Guid(374e649fe7e1059409a4e2ca260eb1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/Zone Lie.prefab using Guid(374e649fe7e1059409a4e2ca260eb1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b8ff656528b4805e38bcbcd8e5a600') in 0.065963 seconds 
+  Import took 0.070287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/FreeLookCameraRig.prefab
+  artifactKey: Guid(736f57217b513be468cd323120caf8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/FreeLookCameraRig.prefab using Guid(736f57217b513be468cd323120caf8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33472880b00536e1d752ef71e40fd93') in 0.031191 seconds 
+  Import took 0.037286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/Zone Crawl Under.prefab
+  artifactKey: Guid(28c840f7ca321dc4da335b6da1cfcf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/Zone Crawl Under.prefab using Guid(28c840f7ca321dc4da335b6da1cfcf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56d511e66d926129b6e47df7b945ee5') in 0.029952 seconds 
+  Import took 0.035486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/Zone Eat.prefab
+  artifactKey: Guid(af6e52a300e84c34396dc3621eda0d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/Zone Eat.prefab using Guid(af6e52a300e84c34396dc3621eda0d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637c01363fa8e5a37d965425dd419592') in 0.035372 seconds 
+  Import took 0.040098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/Enviroment.prefab
+  artifactKey: Guid(9a9c997c2bd27dd4bb26fe3ba598ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/Enviroment.prefab using Guid(9a9c997c2bd27dd4bb26fe3ba598ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e2648286c7bb7ad0d45de300479d29') in 0.061160 seconds 
+  Import took 0.064537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/Enviroment 2.5.prefab
+  artifactKey: Guid(4c34ca868c957b141b60c023ca33e0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/Enviroment 2.5.prefab using Guid(4c34ca868c957b141b60c023ca33e0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd365dc913bdf2f829d4cccb76fbe2215') in 0.059946 seconds 
+  Import took 0.066310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/Environment AI Big.prefab
+  artifactKey: Guid(2a65965de9bf08841b8a8978d2939b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/Environment AI Big.prefab using Guid(2a65965de9bf08841b8a8978d2939b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effb5de2dd895037e569572bc0a3b5f4') in 0.042979 seconds 
+  Import took 0.046086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/Zone Seat.prefab
+  artifactKey: Guid(c5b0c7810b0c0bd45a6dc277b893330e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/Zone Seat.prefab using Guid(c5b0c7810b0c0bd45a6dc277b893330e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e62853f52878cb7012ffcaa4bdc96ca') in 0.045169 seconds 
+  Import took 0.047730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/Zone Sleep.prefab
+  artifactKey: Guid(449b56f89f292fe4eac4b4b46748ecec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/Zone Sleep.prefab using Guid(449b56f89f292fe4eac4b4b46748ecec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2235ab0ececaeb29387d3c5db7a568c') in 0.050829 seconds 
+  Import took 0.053530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Malbers Animations/Common/Prefabs/OffMeshLink Fall.prefab
+  artifactKey: Guid(267321b46a0c4e641b78b8ec9bbb09a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Prefabs/OffMeshLink Fall.prefab using Guid(267321b46a0c4e641b78b8ec9bbb09a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175d405c9b497c97649f8773d2bc2cc0') in 0.027906 seconds 
+  Import took 0.031956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.627254 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Enviroment.prefab
+  artifactKey: Guid(3b233275354826f4ca4fafb00e5faad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Enviroment.prefab using Guid(3b233275354826f4ca4fafb00e5faad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cad750508c80e2e31de8e2a7ac3c01') in 0.030448 seconds 
+  Import took 0.035531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Mount Triggers.prefab
+  artifactKey: Guid(fb25c938d5a890047938248f06c6eade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Mount Triggers.prefab using Guid(fb25c938d5a890047938248f06c6eade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41ace2d99a10602e94ad016c9d8be28') in 0.047779 seconds 
+  Import took 0.050715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Rider FPC.prefab
+  artifactKey: Guid(426818b3a5de99c4a8a5b78d022ffeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Rider FPC.prefab using Guid(426818b3a5de99c4a8a5b78d022ffeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c3f9175cdf8820b19d2967ac9a042c') in 0.054842 seconds 
+  Import took 0.058316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Mount Points.prefab
+  artifactKey: Guid(c67f6f78cf12af94db94f700b0d36632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Mount Points.prefab using Guid(c67f6f78cf12af94db94f700b0d36632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7318c29bb9571611f22bdff674ea88') in 0.041386 seconds 
+  Import took 0.044562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Rider TPC (Inventory).prefab
+  artifactKey: Guid(59abef81ebbcfe24197e2a38abd9e1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Rider TPC (Inventory).prefab using Guid(59abef81ebbcfe24197e2a38abd9e1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02dc195a01b522231d430bcfd83f17c') in 0.452944 seconds 
+  Import took 0.467194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/FreeLookCameraRig HAP.prefab
+  artifactKey: Guid(5d8967513698c0d4aac3a48699f60f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/FreeLookCameraRig HAP.prefab using Guid(5d8967513698c0d4aac3a48699f60f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacde2af1512a90145d66a98bebeda93') in 0.045996 seconds 
+  Import took 0.048951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Rider TPC (Holders).prefab
+  artifactKey: Guid(5d02e38bbb9c0e047a8e5076bf964489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Rider TPC (Holders).prefab using Guid(5d02e38bbb9c0e047a8e5076bf964489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908db6d0e0b4c15d909aa935b5325ef5') in 1.551933 seconds 
+  Import took 1.579386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/FreeLookCameraRig HAP.prefab
+  artifactKey: Guid(5d8967513698c0d4aac3a48699f60f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/FreeLookCameraRig HAP.prefab using Guid(5d8967513698c0d4aac3a48699f60f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacde2af1512a90145d66a98bebeda93') in 0.050948 seconds 
+  Import took 0.061336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.401998 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Models/Terrain For Cart.asset
+  artifactKey: Guid(22ba083c2d9703644a3087eeb5e08ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Models/Terrain For Cart.asset using Guid(22ba083c2d9703644a3087eeb5e08ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c428adbadcc75660ed1e938b72b69e7c') in 0.183367 seconds 
+  Import took 0.187032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Models/Terrain.asset
+  artifactKey: Guid(404a3e13ddc72824e8cde5b470efe079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Models/Terrain.asset using Guid(404a3e13ddc72824e8cde5b470efe079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221b2908abc34560e723a24614ae6590') in 0.166200 seconds 
+  Import took 0.169310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.535011 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Models/Wagons
+  artifactKey: Guid(39ca902abadbe5a44ac8eb4c32783bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Models/Wagons using Guid(39ca902abadbe5a44ac8eb4c32783bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340f1b6116897ba9a44996bdea0dc65c') in 0.051092 seconds 
+  Import took 0.061202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085527 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Models/Wagons/Western Wagon.FBX
+  artifactKey: Guid(50c6afc5bfddf35468117faea9ce0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Models/Wagons/Western Wagon.FBX using Guid(50c6afc5bfddf35468117faea9ce0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf01f67d8d4e240a33cc422e9685534d') in 0.404457 seconds 
+  Import took 0.411598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.075766 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Models/Weapons/Bow.FBX
+  artifactKey: Guid(c8498e540505a3c44aca1a0d4025f77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Models/Weapons/Bow.FBX using Guid(c8498e540505a3c44aca1a0d4025f77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc05a57157e20b666511b5a681273c3f') in 0.237999 seconds 
+  Import took 0.273608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Models/Weapons/Pistol.FBX
+  artifactKey: Guid(47d0342201348df4e9f66088c097fa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Models/Weapons/Pistol.FBX using Guid(47d0342201348df4e9f66088c097fa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72027dca765aa99411fbf78c3d846ed') in 0.082051 seconds 
+  Import took 0.086136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.442806 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Models/Horses/Horse 1.2.FBX
+  artifactKey: Guid(2046927f34611ee4585c1c0a1e249c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Models/Horses/Horse 1.2.FBX using Guid(2046927f34611ee4585c1c0a1e249c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262bda08845a63c8b92546037eec7b75') in 0.144278 seconds 
+  Import took 0.150288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Models/Horses/Horse 2 Big.FBX
+  artifactKey: Guid(687bae7b0a04a5c4a8151c4301d51ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Models/Horses/Horse 2 Big.FBX using Guid(687bae7b0a04a5c4a8151c4301d51ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c309f8c57172e00ab90140cd81de5aec') in 0.184661 seconds 
+  Import took 0.188507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Models/Horses/Mine Craft Horse.FBX
+  artifactKey: Guid(e1be0c7b6624fc04ebef7eeaa0558f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Models/Horses/Mine Craft Horse.FBX using Guid(e1be0c7b6624fc04ebef7eeaa0558f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f245b00ddfe4bc46b2dcc3e5a5f0db') in 0.157763 seconds 
+  Import took 0.161505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Models/Horses/PolyArtHorse.FBX
+  artifactKey: Guid(da8b9ab0f4688ba4c9121555969309ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Models/Horses/PolyArtHorse.FBX using Guid(da8b9ab0f4688ba4c9121555969309ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06165343bfdf41306502ed80e9867fc7') in 0.927418 seconds 
+  Import took 0.940694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000976 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Models/Horses/Horse 2.0 Plus.fbx
+  artifactKey: Guid(111ed4f4f2560414ab2a83658e62d5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Models/Horses/Horse 2.0 Plus.fbx using Guid(111ed4f4f2560414ab2a83658e62d5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab2c2354e0804d210c98a3dc8546ebf') in 0.492493 seconds 
+  Import took 0.498284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.195874 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon
+  artifactKey: Guid(6f9fdfb97cca1d14a90fce73269dd9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon using Guid(6f9fdfb97cca1d14a90fce73269dd9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7acf425c34eda5a8ac85301a45fd0c1') in 0.029134 seconds 
+  Import took 0.035664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068118 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon/2Horses.prefab
+  artifactKey: Guid(0e0ef7aba3a8e144bb401cbb9f3bab42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon/2Horses.prefab using Guid(0e0ef7aba3a8e144bb401cbb9f3bab42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0c9843bfb28f1a5e1c96e8116b78e0') in 1.741541 seconds 
+  Import took 1.773260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon/Western Wagon.prefab
+  artifactKey: Guid(b4c48762cf0997c469415b718bc3a28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon/Western Wagon.prefab using Guid(b4c48762cf0997c469415b718bc3a28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f26f6fa7fbfeb91706b13814f8ac9f') in 0.101633 seconds 
+  Import took 0.186474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon/Wagon Ready.prefab
+  artifactKey: Guid(b77a617af6e05824da96ffa97dae6efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon/Wagon Ready.prefab using Guid(b77a617af6e05824da96ffa97dae6efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ee07fb888c7dc24acf6ae7a2d5d65f') in 0.695010 seconds 
+  Import took 0.710621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon/Wagon Ready AI.prefab
+  artifactKey: Guid(d3cc2b841a31dfc47bd382294ab24d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon/Wagon Ready AI.prefab using Guid(d3cc2b841a31dfc47bd382294ab24d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17140af93fdec107dd379754e254df22') in 0.456944 seconds 
+  Import took 0.473970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon/Cart.prefab
+  artifactKey: Guid(d0570e4188c8ccc4183a47f0bfa40d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon/Cart.prefab using Guid(d0570e4188c8ccc4183a47f0bfa40d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b516b0b19bb31365dd83929b0cf23335') in 0.041569 seconds 
+  Import took 0.049439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002548 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon/Single Horse.prefab
+  artifactKey: Guid(e30f6b08cef1e8749b176a3676c7ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon/Single Horse.prefab using Guid(e30f6b08cef1e8749b176a3676c7ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14c4618914594b7e01157df867ea0da') in 0.374371 seconds 
+  Import took 0.391789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon/Cart.prefab
+  artifactKey: Guid(d0570e4188c8ccc4183a47f0bfa40d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Wagon/Cart.prefab using Guid(d0570e4188c8ccc4183a47f0bfa40d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b516b0b19bb31365dd83929b0cf23335') in 0.040438 seconds 
+  Import took 0.048561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.372175 seconds.
+  path: Assets/Industrial Train Dr14/Prefabs
+  artifactKey: Guid(b48f4eb7c7682a8468568b0a53bf3e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Train Dr14/Prefabs using Guid(b48f4eb7c7682a8468568b0a53bf3e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9916dc8779f8fe5f0feb213e7f1cd7') in 0.031086 seconds 
+  Import took 0.039431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070815 seconds.
+  path: Assets/Industrial Train Dr14/Prefabs/Industrial Train Dr14.prefab
+  artifactKey: Guid(6e35b9c040b5a1248ab789b5a16c9af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Train Dr14/Prefabs/Industrial Train Dr14.prefab using Guid(6e35b9c040b5a1248ab789b5a16c9af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dcdab15ddf604afee996cebf8dc70a') in 0.053542 seconds 
+  Import took 0.064142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.371313 seconds.
+  path: Assets/Wild West Western/Models
+  artifactKey: Guid(aa48ce1cf98a99f41885f70c8c6be061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models using Guid(aa48ce1cf98a99f41885f70c8c6be061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d662490d6eed75fc2d40bee8aaafb6') in 0.035776 seconds 
+  Import took 0.041350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.461174 seconds.
+  path: Assets/Wild West Western/Models/Bank.fbx
+  artifactKey: Guid(5403939657f9c4344aa18cf515342734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Bank.fbx using Guid(5403939657f9c4344aa18cf515342734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d7ab6534f41a4cc02d587aff1d1472') in 0.057008 seconds 
+  Import took 0.062325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Wild West Western/Models/Tree_01.fbx
+  artifactKey: Guid(dd36e323af2547342bb89a4c2051ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tree_01.fbx using Guid(dd36e323af2547342bb89a4c2051ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7259d10f3f83c3290f4300f1b727504') in 0.043158 seconds 
+  Import took 0.048180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Wild West Western/Models/Windmill.fbx
+  artifactKey: Guid(526b8341fc722fc45852a2c197c1118d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Windmill.fbx using Guid(526b8341fc722fc45852a2c197c1118d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cae01c853dcd6ae1a54482ca13b47c') in 0.510678 seconds 
+  Import took 0.514799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/Wild West Western/Models/Fence_Cmentary_02.fbx
+  artifactKey: Guid(337d33f0ba312eb4d88c4d0bb4022636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Fence_Cmentary_02.fbx using Guid(337d33f0ba312eb4d88c4d0bb4022636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0788644237aa74f69f8384d06b06385b') in 0.084307 seconds 
+  Import took 0.136299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Wild West Western/Models/Coin_03.fbx
+  artifactKey: Guid(2810df6af9fccf4428d70cd46462b133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Coin_03.fbx using Guid(2810df6af9fccf4428d70cd46462b133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65cd7a8081c991a48161ae08862bf00') in 0.050256 seconds 
+  Import took 0.056680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Wild West Western/Models/Mine_Entrance.fbx
+  artifactKey: Guid(41735f2da89acef419d2c1a80e23e115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Mine_Entrance.fbx using Guid(41735f2da89acef419d2c1a80e23e115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd5283e6390b8e6c67a5e9b84bffa92') in 0.122475 seconds 
+  Import took 0.129060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Wild West Western/Models/Diamond.fbx
+  artifactKey: Guid(6dbd83fcc84994949a1baf3b64d7ed08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Diamond.fbx using Guid(6dbd83fcc84994949a1baf3b64d7ed08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc03cf7de5a3bf5dda6381faf14547e') in 0.105822 seconds 
+  Import took 0.109811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Wild West Western/Models/Coin_01.fbx
+  artifactKey: Guid(945f106884507014d9adf4758c6c4d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Coin_01.fbx using Guid(945f106884507014d9adf4758c6c4d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b16edffab8e2f94af48567a7b052502') in 0.094496 seconds 
+  Import took 0.099859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Wild West Western/Models/Tombstone_02.fbx
+  artifactKey: Guid(675595a4ece1e52499560fb1c1df52e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tombstone_02.fbx using Guid(675595a4ece1e52499560fb1c1df52e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfde777628fc74c704f03d2a31894e8') in 0.049861 seconds 
+  Import took 0.053185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Wild West Western/Models/Fence_Cmentary_03.fbx
+  artifactKey: Guid(638d8b240012a3847a1c542a063a6594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Fence_Cmentary_03.fbx using Guid(638d8b240012a3847a1c542a063a6594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd3921a2faf5d3ac954d994eae4d2d0') in 0.086207 seconds 
+  Import took 0.090856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Wild West Western/Models/Western_Wagon.fbx
+  artifactKey: Guid(846edcecb228de449a39371d15993dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Western_Wagon.fbx using Guid(846edcecb228de449a39371d15993dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b8c30433f5920a056260a96dd83c24') in 0.042462 seconds 
+  Import took 0.045571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Wild West Western/Models/Tombstone_05.fbx
+  artifactKey: Guid(31291a2736820924dad56a476980a6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tombstone_05.fbx using Guid(31291a2736820924dad56a476980a6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064e394f21ce3a12edf78566add5d68b') in 0.034709 seconds 
+  Import took 0.038887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Wild West Western/Models/House_Standard_02.fbx
+  artifactKey: Guid(2317b0c733b0c584f82e86d22697b6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/House_Standard_02.fbx using Guid(2317b0c733b0c584f82e86d22697b6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9d38e9c2664eb8897f8e4f13c927f9') in 0.095861 seconds 
+  Import took 0.104488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Wild West Western/Models/Trolley.fbx
+  artifactKey: Guid(2c431ddf67efcda41b2188795cee3ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Trolley.fbx using Guid(2c431ddf67efcda41b2188795cee3ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3911ec7a207d9fb68016c1dc6733fa') in 0.081517 seconds 
+  Import took 0.089430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Wild West Western/Models/Barn_02.fbx
+  artifactKey: Guid(e777d3265adcccd4aa15641237d32471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Barn_02.fbx using Guid(e777d3265adcccd4aa15641237d32471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da19c86fd308814579c1f2774d508ca8') in 0.040412 seconds 
+  Import took 0.044839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Wild West Western/Models/Chapel.fbx
+  artifactKey: Guid(5c1542ad9b39d2248b66b8671bd5e0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Chapel.fbx using Guid(5c1542ad9b39d2248b66b8671bd5e0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcb9f12473d696599222aee2ecd70de') in 0.036176 seconds 
+  Import took 0.045678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Wild West Western/Models/Box_Simple.fbx
+  artifactKey: Guid(09b6f5bf63352c64f89ce12011a76231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Box_Simple.fbx using Guid(09b6f5bf63352c64f89ce12011a76231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcde4a9e7efef33c1c016a5653a198e') in 0.113538 seconds 
+  Import took 0.117664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003426 seconds.
+  path: Assets/Wild West Western/Models/Cactus_04.fbx
+  artifactKey: Guid(af199f7467eb2a246a98761dd2a5914d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Cactus_04.fbx using Guid(af199f7467eb2a246a98761dd2a5914d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1016b7c2d99c6afac6ee6191c8df08e6') in 0.106647 seconds 
+  Import took 0.111946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Wild West Western/Models/Fence_Cmentary_01.fbx
+  artifactKey: Guid(d619e4a4a61ce85459c94689f99495e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Fence_Cmentary_01.fbx using Guid(d619e4a4a61ce85459c94689f99495e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e6bfe3074885c609030ed1613ece27') in 0.095741 seconds 
+  Import took 0.100552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Wild West Western/Models/Saloon.fbx
+  artifactKey: Guid(246e55031d1207e44a20501691e811f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Saloon.fbx using Guid(246e55031d1207e44a20501691e811f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8c805f3e86ce8c103cf08d11cd82e0') in 0.094789 seconds 
+  Import took 0.101495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Wild West Western/Models/Tracks_04.fbx
+  artifactKey: Guid(ceef97161c3fab64da3fb715af9c891a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tracks_04.fbx using Guid(ceef97161c3fab64da3fb715af9c891a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e5ac10eeac1ec3dbf51fe523a87ff1') in 0.099498 seconds 
+  Import took 0.107366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Wild West Western/Models/Safe.fbx
+  artifactKey: Guid(ab145c8d99fa67f47b7793559e7a5522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Safe.fbx using Guid(ab145c8d99fa67f47b7793559e7a5522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295f9108ca0f97e9fe5ee6f9ca09a482') in 0.055094 seconds 
+  Import took 0.070516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Wild West Western/Models/Tree_03.fbx
+  artifactKey: Guid(56d2f45c2d790274089e541ea88edc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tree_03.fbx using Guid(56d2f45c2d790274089e541ea88edc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed81aaeb9a3b23b0847321a3dbb52bc7') in 0.183244 seconds 
+  Import took 0.197188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001280 seconds.
+  path: Assets/Wild West Western/Models/Church.fbx
+  artifactKey: Guid(23ce6e10e9fd9604088e218bf3476d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Church.fbx using Guid(23ce6e10e9fd9604088e218bf3476d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47a6e9ff8b2c2db6ecfb71e9a0ecbda') in 0.047981 seconds 
+  Import took 0.057584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Wild West Western/Models/Grave_01.fbx
+  artifactKey: Guid(40e2902034948fe4f8123d4f1ecb6c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Grave_01.fbx using Guid(40e2902034948fe4f8123d4f1ecb6c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c315a65f70bef5c1596732a3463e5c58') in 0.109394 seconds 
+  Import took 0.122825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Wild West Western/Models/Reservoir.fbx
+  artifactKey: Guid(1bdc5a3250b036b43ab846c4b8d26358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Reservoir.fbx using Guid(1bdc5a3250b036b43ab846c4b8d26358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341098825886afda8f043a877439969d') in 0.112112 seconds 
+  Import took 0.118723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Wild West Western/Models/Tree_02.fbx
+  artifactKey: Guid(e5c4d34b1b01f854cb2292d1cb215065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tree_02.fbx using Guid(e5c4d34b1b01f854cb2292d1cb215065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c441d4141bb44023172306e014e9e3e') in 0.109042 seconds 
+  Import took 0.115978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Wild West Western/Models/Hay.fbx
+  artifactKey: Guid(964e2721afd4f244da5c39085c3bcef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Hay.fbx using Guid(964e2721afd4f244da5c39085c3bcef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50566b1cb1a2dba2702d4cf1c95c7e07') in 0.833087 seconds 
+  Import took 0.868567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139544 seconds.
+  path: Assets/Wild West Western/Models/Tombstone_03.fbx
+  artifactKey: Guid(f62f6ddb05dceca47a27fde41cad1df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tombstone_03.fbx using Guid(f62f6ddb05dceca47a27fde41cad1df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2041dad97687fa3432bd450d5f5fdf6') in 0.254008 seconds 
+  Import took 0.289913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Wild West Western/Models/Cactus_01.fbx
+  artifactKey: Guid(2d7bf058345e07f488af293ec7dec066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Cactus_01.fbx using Guid(2d7bf058345e07f488af293ec7dec066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07a9858b3be2727db1b296ba720c3f2') in 0.111164 seconds 
+  Import took 0.125006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Wild West Western/Models/Mine_Construction.fbx
+  artifactKey: Guid(a4bee9ddaa6817e4d952d67c19d1c37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Mine_Construction.fbx using Guid(a4bee9ddaa6817e4d952d67c19d1c37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c673c71fd4505beeca22146596210b0') in 0.140230 seconds 
+  Import took 0.148388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004858 seconds.
+  path: Assets/Wild West Western/Models/Star.fbx
+  artifactKey: Guid(c2eb4dc7d96075f4694c4c78eaefeca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Star.fbx using Guid(c2eb4dc7d96075f4694c4c78eaefeca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e4f9b7063f1bd1c27da8d97c8b43dc') in 2.276404 seconds 
+  Import took 2.370293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Wild West Western/Models/Tracks_03.fbx
+  artifactKey: Guid(c71ea73db32c25849bff57fe603bb45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tracks_03.fbx using Guid(c71ea73db32c25849bff57fe603bb45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5201f8eb578e6222b54ffc5815040ee') in 0.276848 seconds 
+  Import took 0.345413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Wild West Western/Models/Fence_Cmentary_04.fbx
+  artifactKey: Guid(c64d25d8a9f1949479ddd6f665248282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Fence_Cmentary_04.fbx using Guid(c64d25d8a9f1949479ddd6f665248282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584e7cf2944eba705c73d36a2015b204') in 0.267913 seconds 
+  Import took 0.285962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Wild West Western/Models/House_Standard_01.fbx
+  artifactKey: Guid(558a10379b25fdb4eb58a073571fd21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/House_Standard_01.fbx using Guid(558a10379b25fdb4eb58a073571fd21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1282e8b47f2fd3c8aca79e2dee022ad4') in 0.494307 seconds 
+  Import took 0.746303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000947 seconds.
+  path: Assets/Wild West Western/Models/House_Standard_04.fbx
+  artifactKey: Guid(785aa00fbd71627418b6de3e5d8b0914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/House_Standard_04.fbx using Guid(785aa00fbd71627418b6de3e5d8b0914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1821884e105cfe1b7daf95060b941661') in 0.320919 seconds 
+  Import took 0.600253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Wild West Western/Models/Coin_02.fbx
+  artifactKey: Guid(f34b3551f139ead4bb17f32638f5405e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Coin_02.fbx using Guid(f34b3551f139ead4bb17f32638f5405e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adf42fa5bb695318d4b570d93a5ec47') in 0.512515 seconds 
+  Import took 0.524158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Wild West Western/Models/Tombstone_01.fbx
+  artifactKey: Guid(d93b1a5b0a7d0174a9e823c304e316c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tombstone_01.fbx using Guid(d93b1a5b0a7d0174a9e823c304e316c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6ceb2ed4099af8985296f4d036f421') in 0.211189 seconds 
+  Import took 0.221102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Wild West Western/Models/Grave_02.fbx
+  artifactKey: Guid(d73eca9c701133a4f9cd2e5212dd311c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Grave_02.fbx using Guid(d73eca9c701133a4f9cd2e5212dd311c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbaaed43153489676a8b89728492b723') in 0.161909 seconds 
+  Import took 0.172660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Wild West Western/Models/Gate.fbx
+  artifactKey: Guid(e69f6c0159177144a92cee3aeb10584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Gate.fbx using Guid(e69f6c0159177144a92cee3aeb10584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30092c91087d9983745349a01d55b88') in 0.122331 seconds 
+  Import took 0.133147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Wild West Western/Models/Fence_02.fbx
+  artifactKey: Guid(1c16738f7e514c546888ad4d6a42d795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Fence_02.fbx using Guid(1c16738f7e514c546888ad4d6a42d795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0becd60fc0091635193d8bab1e19360f') in 0.120752 seconds 
+  Import took 0.127577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Wild West Western/Models/House_Standard_03.fbx
+  artifactKey: Guid(1c366a597c3385a46a08ecccb24c45b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/House_Standard_03.fbx using Guid(1c366a597c3385a46a08ecccb24c45b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92219a29e2d4c828ab2a62f854828aac') in 0.110070 seconds 
+  Import took 0.115817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000772 seconds.
+  path: Assets/Wild West Western/Models/Well.fbx
+  artifactKey: Guid(a65c008a8798fce4a9ec86bc4550e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Well.fbx using Guid(a65c008a8798fce4a9ec86bc4550e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd86e5ce77a1b009e901ec9cef12360') in 0.099303 seconds 
+  Import took 0.104814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Wild West Western/Models/Tracks_02.fbx
+  artifactKey: Guid(e688177f9bc445f4da94c58227a714cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tracks_02.fbx using Guid(e688177f9bc445f4da94c58227a714cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab13ed3321657783552c4ac20732b35a') in 0.137806 seconds 
+  Import took 0.151253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000957 seconds.
+  path: Assets/Wild West Western/Models/Coach.fbx
+  artifactKey: Guid(9210f739e2467864d973e462fbf0cf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Coach.fbx using Guid(9210f739e2467864d973e462fbf0cf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206aebe516179f10d6ff5b72c00f7d75') in 0.299868 seconds 
+  Import took 0.317930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004380 seconds.
+  path: Assets/Wild West Western/Models/Barrel.fbx
+  artifactKey: Guid(0f9711582842315479d7d31e6739eae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Barrel.fbx using Guid(0f9711582842315479d7d31e6739eae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b77d65470ca14cc541ee224bc61146a') in 1.535953 seconds 
+  Import took 1.549516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Wild West Western/Models/Fence_03.fbx
+  artifactKey: Guid(5b0eadc2bdcb76740a40d9270b7cf83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Fence_03.fbx using Guid(5b0eadc2bdcb76740a40d9270b7cf83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b88a91cb80493aa586c83c45d46cfe') in 0.243413 seconds 
+  Import took 0.265559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Wild West Western/Models/Cactus_02.fbx
+  artifactKey: Guid(27e7ed4fa4c19a6498a38b37eec6e0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Cactus_02.fbx using Guid(27e7ed4fa4c19a6498a38b37eec6e0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700d3186ffb8f22307427fb01f764a9b') in 0.685159 seconds 
+  Import took 0.697430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Wild West Western/Models/Barn_01.fbx
+  artifactKey: Guid(d09fa7fae47ed4249a28930813922c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Barn_01.fbx using Guid(d09fa7fae47ed4249a28930813922c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063918f134b028fd6e2ceea40a60b992') in 1.235509 seconds 
+  Import took 1.245565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Wild West Western/Models/Fence_01.fbx
+  artifactKey: Guid(0a33bac1074a2a945b55ab00d20b84a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Fence_01.fbx using Guid(0a33bac1074a2a945b55ab00d20b84a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b006c427e3232d2c24c36ad565a8154') in 0.078912 seconds 
+  Import took 0.087191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Wild West Western/Models/Tracks_01.fbx
+  artifactKey: Guid(62824d16983629e4190869cb1c9884b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tracks_01.fbx using Guid(62824d16983629e4190869cb1c9884b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4578efa9f70d443125e7606d94d867') in 0.097587 seconds 
+  Import took 0.114568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/Wild West Western/Models/Tombstone_04.fbx
+  artifactKey: Guid(1e721ca9980992e4b9616d9620067cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tombstone_04.fbx using Guid(1e721ca9980992e4b9616d9620067cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3bb56f4aaeee584e3f9ab5be195ba9') in 0.054139 seconds 
+  Import took 0.065686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Wild West Western/Models/Cactus_03.fbx
+  artifactKey: Guid(35986e7858bdf134cb284502fad2bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Cactus_03.fbx using Guid(35986e7858bdf134cb284502fad2bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09682f53dfdcde2c6c56e11d9102fd08') in 0.078983 seconds 
+  Import took 0.086610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/Wild West Western/Models/Tracks_90.fbx
+  artifactKey: Guid(e5fe43b77ecf79d409574f7d107b3bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tracks_90.fbx using Guid(e5fe43b77ecf79d409574f7d107b3bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbe0a70032844b3a5c127288f421c9c') in 0.115233 seconds 
+  Import took 0.128084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002195 seconds.
+  path: Assets/Wild West Western/Models/Tombstone_06.fbx
+  artifactKey: Guid(5fc8617b19d5edb4fbb49ab30fc759b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Tombstone_06.fbx using Guid(5fc8617b19d5edb4fbb49ab30fc759b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd600a2f94fbc1e2f69348717565469e1') in 0.048466 seconds 
+  Import took 0.054279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Wild West Western/Models/Bridge.fbx
+  artifactKey: Guid(d2f218afcd280a94c84c345bab53c7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wild West Western/Models/Bridge.fbx using Guid(d2f218afcd280a94c84c345bab53c7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d914a8b61b97cfa2d5d51abb2aaa05') in 0.137193 seconds 
+  Import took 0.143604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.792347 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Arrow.prefab
+  artifactKey: Guid(bb8064ee21219ba4b99f8db3e12df536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Arrow.prefab using Guid(bb8064ee21219ba4b99f8db3e12df536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab86721e8457b9f587746f698c021066') in 0.037268 seconds 
+  Import took 0.049693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Bow Left.prefab
+  artifactKey: Guid(f55b8e36b83ac024d8451b2e8b18087b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Bow Left.prefab using Guid(f55b8e36b83ac024d8451b2e8b18087b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc0802d02f47a7c07695f870c494fc0') in 0.030782 seconds 
+  Import took 0.035577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Axe LeftHand.prefab
+  artifactKey: Guid(909bc293c54d3a340a24822a1c7af35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Axe LeftHand.prefab using Guid(909bc293c54d3a340a24822a1c7af35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49696c918842b95734d0f4e7e702662d') in 0.044724 seconds 
+  Import took 0.050099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Axe.prefab
+  artifactKey: Guid(6327f99012e09404f86ebeb2c7bff1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Axe.prefab using Guid(6327f99012e09404f86ebeb2c7bff1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171520cbbdc951635f0dbf89ba66f0dd') in 0.079172 seconds 
+  Import took 0.089685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Sword.prefab
+  artifactKey: Guid(cd655bcb33b07a94c9e01c2e9b6b5573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Sword.prefab using Guid(cd655bcb33b07a94c9e01c2e9b6b5573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd48c4b8c85e3d415e997ec2ccab4018') in 0.037426 seconds 
+  Import took 0.044984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Pistol.prefab
+  artifactKey: Guid(2c5225f5669a34c4692d95a8d5dfe2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Pistol.prefab using Guid(2c5225f5669a34c4692d95a8d5dfe2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57c6113aee6ef1b51057c4690953e2a') in 0.024704 seconds 
+  Import took 0.030806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Pistol Left Hand.prefab
+  artifactKey: Guid(0ba5880b02e1ab24b8ba198a97da9322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Pistol Left Hand.prefab using Guid(0ba5880b02e1ab24b8ba198a97da9322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48edc2cb946716da775bd7ebb1d86e45') in 0.082514 seconds 
+  Import took 0.085996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Bow.prefab
+  artifactKey: Guid(7b615104e974f564faa2d8db65d150fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons/Bow.prefab using Guid(7b615104e974f564faa2d8db65d150fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccce929ee382fa2f8ee0114d04151451') in 0.021166 seconds 
+  Import took 0.024483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.528257 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons
+  artifactKey: Guid(81f2f3663dec72d49815dc679f348288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Prefabs/Weapons using Guid(81f2f3663dec72d49815dc679f348288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f294bed5b22911ccd43da14bb11112') in 0.031801 seconds 
+  Import took 0.036892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.880429 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/Models/Terrain.asset
+  artifactKey: Guid(404a3e13ddc72824e8cde5b470efe079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/Models/Terrain.asset using Guid(404a3e13ddc72824e8cde5b470efe079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab4aa22f74467918bebe98f76209e51') in 0.025930 seconds 
+  Import took 0.029664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.449410 seconds.
+  path: Assets/Malbers Animations/Horse AnimSet Pro/_Demo Scenes/Horse Mobile Riding Only (Crossplatform Standard Asset required).unity
+  artifactKey: Guid(42d7fac7476e35b42aba4c4acf32dcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Horse AnimSet Pro/_Demo Scenes/Horse Mobile Riding Only (Crossplatform Standard Asset required).unity using Guid(42d7fac7476e35b42aba4c4acf32dcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb82f9bb7b371785c5e05ca364ff0237') in 0.045091 seconds 
+  Import took 0.049294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.102671 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(eb2d59a5950369a449e543b04ba978d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(eb2d59a5950369a449e543b04ba978d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b4557433caf62c9753ddefdb23f4e0') in 0.029958 seconds 
+  Import took 0.033436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003288 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(eb2d59a5950369a449e543b04ba978d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(eb2d59a5950369a449e543b04ba978d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b4557433caf62c9753ddefdb23f4e0') in 0.015641 seconds 
+  Import took 0.020483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046362 seconds.
+  path: Assets/Scenes/NewLayer 1.terrainlayer
+  artifactKey: Guid(e23d27e294393f54bb97039eeb8d441d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewLayer 1.terrainlayer using Guid(e23d27e294393f54bb97039eeb8d441d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1d4577ffdc545d9f5492065e1e04db') in 0.062980 seconds 
+  Import took 0.066352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Scenes/NewLayer.terrainlayer
+  artifactKey: Guid(755ee94a9508b7a479d67159ed29fc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewLayer.terrainlayer using Guid(755ee94a9508b7a479d67159ed29fc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d90a19f42fdaf24eaa91d711d87ccd') in 0.073636 seconds 
+  Import took 0.077957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Scenes/NewLayer 3.terrainlayer
+  artifactKey: Guid(6d7fc190bc94f1f4fab5e3bd08a9009e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewLayer 3.terrainlayer using Guid(6d7fc190bc94f1f4fab5e3bd08a9009e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb337720e24fc254d2b36b8bf29dcb4') in 0.058338 seconds 
+  Import took 0.064744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Scenes/NewLayer 2.terrainlayer
+  artifactKey: Guid(103929f2864d45942bcaec99d06b5eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewLayer 2.terrainlayer using Guid(103929f2864d45942bcaec99d06b5eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51721e3b5d00fb171b7a92a3e1c43d9') in 0.070968 seconds 
+  Import took 0.082784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.287805 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e1643a4ec7633c1cf8c5e377041d2a') in 0.105891 seconds 
+  Import took 0.121555 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004398 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.184 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1531 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.4 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2013.
+Total: 2.868000 ms (FindLiveObjects: 0.268000 ms CreateObjectMapping: 0.117900 ms MarkObjects: 2.020500 ms  DeleteObjects: 0.460600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
